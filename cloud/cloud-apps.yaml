@@ -19,7 +19,7 @@ spec:
 
       # Source of the application manifests
       source:
-        repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
+        repoURL: https://github.com/ryourst/infra-apps.git
         targetRevision: HEAD
         path: '{{path}}'
       
