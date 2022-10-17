@@ -8,5 +8,7 @@ bases:
 
 resources:
 - daemonset.yaml
+
+patchesStrategicMerge:
 - service.yaml
 

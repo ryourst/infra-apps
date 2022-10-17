@@ -8,5 +8,6 @@ bases:
 
 resources:
 - deployment.yaml
-- service.yaml
 
+patchesStrategicMerge:
+- service.yaml
