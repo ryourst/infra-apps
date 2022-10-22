@@ -14,3 +14,4 @@ Included so far:
     kill %1
     argocd login argocd-server.example.com
     ```
+- **kube-prometheus** - Installs Prometheus, Grafana, and Alertmanager with cloud LB, or with NGINX ingress resources for on-prem. Ingress resource yaml files need to be updated for correct host name.
