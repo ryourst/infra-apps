@@ -9,6 +9,7 @@ Included so far:
     argocd login 127.0.0.1:8080
     argocd app create infra-apps --repo https://github.com/ryourst/infra-apps.git --path ./onprem \
      --dest-server https://kubernetes.default.svc --dest-namespace argocd
+    argocd app sync infra-apps
     # deploy your ingress resource and re-login to argocd
     kill %1
     argocd login argocd-server.example.com
