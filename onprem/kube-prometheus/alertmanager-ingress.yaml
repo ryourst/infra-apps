@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: alertmanager.cmcloudlab950.info
+  - host: alertmanager.example.com
     http:
       paths:
       - path: /
