@@ -15,3 +15,5 @@ Included so far:
     argocd login argocd-server.example.com
     ```
 - **kube-prometheus** - Installs Prometheus, Grafana, and Alertmanager with cloud LB, or with NGINX ingress resources for on-prem. Ingress resource yaml files need to be updated for correct host name.
+
+Note: The prometheus CRD will fail to install because the file is too long for ArgoCD to apply. Instead, after it fails, sync the failed CRD manually in the UI and check `Replace` option.
