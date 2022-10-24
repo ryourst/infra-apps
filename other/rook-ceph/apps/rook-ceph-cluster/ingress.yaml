@@ -16,6 +16,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: argocd-server
+            name: rook-ceph-mgr-dashboard-external-https
             port:
               number: 8443
