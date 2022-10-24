@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: prometheus.cmcloudlab950.info
+  - host: prometheus.example.com
     http:
       paths:
       - path: /
