@@ -7,7 +7,7 @@ metadata:
   namespace: argocd
 spec:
   source:
-    path: ./infra-apps/other/rook-ceph/apps/rook-ceph-addons
+    path: ./other/rook-ceph/apps/rook-ceph-addons
     repoURL: 'https://github.com/ryourst/infra-apps'
     targetRevision: main
   destination:
